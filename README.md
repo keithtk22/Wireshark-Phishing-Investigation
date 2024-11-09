@@ -1,13 +1,13 @@
 # Wireshark-Phishing-Investigation
 
 ## Overview
-[Brief Objective - Remove this afterwards]
 
-In this challenge, you will be tasked to analyse the Tactics, Techniques, and Procedures (TTPs) executed by a threat group, from obtaining initial access until achieving its objective. 
-Julianne, a finance employee working for Quick Logistics LLC, received an email regarding an unpaid invoice from their business partner, the attached document was malicious and compromised her workstation. The security team was able to flag the suspicious execution of the attachment.
+In this challenge, I was tasked to find the Tactics, Techniques, and Procedures (TTPs) executed by a threat group, from obtaining initial access until achieving its objective. 
+Julianne, a finance employee working for an partner LLC, received an email regarding an unpaid invoice from their business partner, the attached document was malicious and compromised her workstation. The security team was able to flag the suspicious attachment and have assigned me to take a closer look.
 
 ## Objectives
 
+          EMAIL INVESTIGATION
 	• What is the email address used to send the phishing email?
 
 	• What is the email address of the victim?
@@ -20,7 +20,7 @@ Julianne, a finance employee working for Quick Logistics LLC, received an email 
 
 	• Based on the result of the lnkparse tool, what is the encoded payload found in the Command Line Arguments field?
 
-
+          Network Investigation
 	• What are the domains used by the attacker for file hosting and C2? 
 
 	• What is the name of the enumeration tool downloaded by the attacker?
@@ -37,7 +37,7 @@ Julianne, a finance employee working for Quick Logistics LLC, received an email 
 
 	• What is the tool used for exfiltration?
 
-
+          Exfiltration Investigation
 	• What software is used by the attacker to host its presumed file/payload server?
 
 	• What HTTP method is used by the C2 for the output of the commands executed by the attacker?
@@ -50,9 +50,7 @@ Julianne, a finance employee working for Quick Logistics LLC, received an email 
 
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
- 
 	• LNKParse3 - a python package for forensics of a binary file with LNK extension.
  
 	• Wireshark - GUI-based packet analyser.
@@ -61,11 +59,11 @@ Julianne, a finance employee working for Quick Logistics LLC, received an email 
  
 	• jq - a lightweight and flexible command-line JSON processor.
  
-  • PCAP investigations
+        • PCAP investigations, linux cli
 	
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
+
 
   • Thunderbird - a free and open-source cross-platform email client.
 
@@ -77,14 +75,10 @@ Julianne, a finance employee working for Quick Logistics LLC, received an email 
  
 	• jq - a lightweight and flexible command-line JSON processor.
  
-  • grep, sed, awk
+        • grep, sed, awk
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
+![image](https://github.com/user-attachments/assets/2910aa24-8f84-476d-adcf-577b5a78a55e)
 
-Example below.
-
-*Ref 1: Network Diagram*
 
